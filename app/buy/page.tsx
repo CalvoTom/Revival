@@ -46,7 +46,7 @@ export default function BuyPage() {
         {/* Hero Section */}
         <section
           className="relative h-[605px] bg-cover bg-center"
-          style={{ backgroundImage: "url('/placeholder.svg?height=605&width=1440')" }}
+          style={{ backgroundImage: "url('/Shoot REVIVAL-13 1.png?height=605&width=1440')" }}
         >
           <div className="absolute inset-0 bg-black/20" />
         </section>
@@ -67,15 +67,12 @@ export default function BuyPage() {
           </p>
         </section>
 
-        {/* Products Grid */}
-        <section className="py-16 px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {products.map((product) => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
-          </div>
+        {/* Section rien à voir */}
+        <section className="py-20 px-4 bg-[#EEE8DC] text-center">
+          <h2 className="text-4xl font-semibold text-[#3F3529] mb-4">Rien à voir ici pour le moment</h2>
+          <p className="text-lg text-[#3F3529]">
+            Du contenu incroyable arrive bientôt !
+          </p>
         </section>
       </main>
 

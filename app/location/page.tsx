@@ -12,28 +12,40 @@ export default function LocationPage() {
   const products = [
     {
       id: 1,
-      name: "Robe de soirée",
-      brand: "Chanel",
-      image: "/placeholder.svg?height=440&width=300",
+      name: "Sacoche",
+      brand: "Gucci",
+      image: "/Shoot REVIVAL-04 1.png?height=440&width=300",
     },
     {
       id: 2,
-      name: "Costume",
-      brand: "Tom Ford",
-      image: "/placeholder.svg?height=440&width=300",
+      name: "Bonnet",
+      brand: "Louis Vuitton",
+      image: "/Shoot REVIVAL-05 1.png?height=440&width=300",
     },
     {
       id: 3,
-      name: "Sac à main",
-      brand: "Hermès",
-      image: "/placeholder.svg?height=440&width=300",
+      name: "Porte-monnaie",
+      brand: "Goyard",
+      image: "/Shoot REVIVAL-12 1.png?height=440&width=300",
     },
     {
-      id: 4,
-      name: "Chaussures",
-      brand: "Louboutin",
-      image: "/placeholder.svg?height=440&width=300",
+      id: 5,
+      name: "Chemise",
+      brand: "Ralph Laurent",
+      image: "/ralph.png?height=440&width=300",
     },
+    {
+      id: 6,
+      name: "Pull",
+      brand: "Ami Paris",
+      image: "/amis.png?height=440&width=300",
+    },
+    {
+      id: 7,
+      name: "Veste Polaire",
+      brand: "Maison Kitsuné",
+      image: "/polaire.png?height=440&width=300",
+    }
   ]
 
   return (
@@ -45,7 +57,7 @@ export default function LocationPage() {
         {/* Hero Section */}
         <section
           className="relative h-[605px] bg-cover bg-center"
-          style={{ backgroundImage: "url('/placeholder.svg?height=605&width=1440')" }}
+          style={{ backgroundImage: "url('/Shoot REVIVAL-10 1.png?height=605&width=1440')" }}
         >
           <div className="absolute inset-0 bg-black/20" />
         </section>
